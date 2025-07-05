@@ -169,3 +169,19 @@ CATPPUCCIN_THEME=(
         'cursors=https://github.com/catppuccin/cursors.git'
         'userstyles=https://github.com/catppuccin/userstyles.git'
 )
+
+printf "${BgCyan}[PROMPT]${Reset} Username"
+read -p ': ' USERNAME
+
+printf "\n${BgCyan}[PROMPT]${Reset} Password"
+read -s -p ': ' PASSWORD
+printf "\n${BgCyan}[PROMPT]${Reset} Password (double check)"
+read -s -p ': ' PASSWORD_CHECK
+
+if [[ $USER_PASSWD != $USER_PASSWD_CHECK ]]; then
+        printf "\n${BgRed}[ERROR]${Reset} Passwords don't match"
+        exit 1
+fi
+
+printf "${BgCyan}[PROMPT]${Reset} Hostname"
+read -p ': ' HOSTNAME
