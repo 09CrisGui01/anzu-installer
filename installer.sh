@@ -149,3 +149,23 @@ PACKAGES_CHAOTIC=(
         # Theme
         'catppuccin-cursors-mocha'
 )
+
+CATPPUCCIN_THEME=(
+        'bat=https://github.com/catppuccin/bat.git'
+        'alacritty=https://github.com/catppuccin/alacritty.git'
+        'calibre=https://github.com/catppuccin/calibre.git'
+        'yazi=https://github.com/catppuccin/yazi.git'
+        'tty=https://github.com/catppuccin/tty.git'
+        'tmux=https://github.com/catppuccin/tmux.git'
+        'swaylock=https://github.com/catppuccin/swaylock.git'
+        'qbittorrent=https://github.com/catppuccin/qbittorrent.git'
+        'plymouth=https://github.com/catppuccin/plymouth.git'
+        'obsidian=https://github.com/catppuccin/obsidian.git'
+        'neovim=https://github.com/catppuccin/nvim.git'
+        'mpv=https://github.com/catppuccin/mpv.git'
+        'mako=https://github.com/catppuccin/mako.git'
+        'sway=https://github.com/catppuccin/i3.git'
+        'fzf=https://github.com/catppuccin/fzf.git'
+        'cursors=https://github.com/catppuccin/cursors.git'
+        'userstyles=https://github.com/catppuccin/userstyles.git'
+)
