@@ -1,4 +1,4 @@
-# Changelog
+# Futurelog
 
 All notable changes to this project will be documented in this file.
 
@@ -7,5 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] 2025-07-07
 ### Features
-- ANSI 16 Colors #1
-- Packages #2
+- #1 ANSI 16 Colors
+- #2 Packages
+- #3 Themes
+- #4 Interactive prompts
