@@ -68,3 +68,84 @@ Blinking='\x1b[5m'
 Inverse='\x1b[7m'
 Hidden='\x1b[8m'
 Strikethrough='\x1b[9m'
+
+PACKAGES_OFFICIAL=(
+        # System
+        'archlinux-keyrings' 'plymouth' 'linux' 'linux-lts' 'linux-firmware'
+        'linux-headers' 'linux-lts-headers' 'intel-ucode' 'intel-undervolt'
+        'intel-gpu-tools' 'apparmor' 'cmake' 'make' 'base' 'base-devel' 
+        'man-db' 'man-pages' 'sudo'
+
+        # Drivers
+        'mesa' 'vulkan-mesa-layer' 'vulkan-intel' 'vulkan-headers' 
+        'vulkan-tools' 'libva' 'libva-utils' 'libva-intel-driver'
+        'intel-media-driver'
+
+        # Compress
+        'tar' 'bzip2' 'bzip3' 'gzip' '7zip' 'unrar' 'zip' 'unzip' 'unarchiver'
+
+        # Codecs
+        'flac' 'wavpack' 'a52dec' 'libmad' 'lame' 'libmpcdec' 'opus' 'aom'
+        'libvorbis' 'libdca' 'faac' 'faad2' 'jasper' 'libwebp' 'libavif'
+        'libheif' 'libjxl' 'aom' 'dav1d' 'rav1e' 'schroedinger' 'x265' 'x264'
+        'libtheora' 'libvpx' 'xvidcore' 'libmpeg2' 'gst-libav' 'gstreamer'
+        'gst-plugins-bad' 'gst-plugins-good' 'gst-plugins-base'
+        'gst-plugins-ugly' 'gst-plugins-good' 'gst-plugin-pipewire' 
+        'gst-plugin-va' 'ffmpeg' 
+
+        # Audio
+        'pipewire' 'wireplumber' 'pipewire-audio' 'pipewire-alsa' 'alsa-oss'
+        'pipewire-pulse' 'pipewire-jack' 'alsa-firmware' 'alsa-utils'
+        'alsa-plugins' 'alsa-tools'
+
+        # Power
+        'acpid'
+
+        # Pacman
+        'pacman-contrib' 'reflector'
+
+        # Network
+        'bluez' 'bluez-tools' 'bluez-cups' 'cups' 'cups-pdf' 'foomatic-db'
+        'foomatic-db-ppds' 'foomatic-db-nonfree' 'foomatic-db-nonfree-ppds'
+        'networkmanager' 'iptables' 'wpa_supplicant' 'dhcpcd'
+
+        # Wayland
+        'xorg-xwayland' 'wayland' 'xdg-utils' 'xdg-user-dirs' 
+        'xdg-desktop-portal' 'xdg-desktop-portal-wlr'
+
+        # SwayWM
+        'sway' 'swaybg' 'swayidle' 'swayimg' 'sway-contrib' 'brightnessctl'
+        'mako' 'wl-clipboard' 'kanshi' 'wlsunset' 'grim' 'slurp'
+
+        # Tools
+        'neovim' 'tmux' 'fzf' 'alacritty' 'bat' 'bash-completion' 'yazi' 'git'
+        'bash-complete-alias' 'starship' 'premake' 'btop'
+
+        # Flatpak
+        'flatpak' 'flatpak-xdg-utils'
+
+        # Fonts
+        'gnu-free-fonts' 'noto-fonts' 'ttf-roboto' 'ttf-droid' 'otf-fira-mono'
+        'ttf-fira-code' 'otf-hermit' 'ttf-roboto-mono' 'otf-fira-sans'
+        'adobe-source-code-pro-fonts' 'inter-font' 'ttf-opensans' 'nerd-fonts'
+        'adobe-source-sans-fonts' 'ttf-font-awesome'
+)
+
+PACKAGES_AUR=(
+        # Power
+        'laptop-mode-tools'
+
+        # Codecs
+        'ffmpeg-full'
+
+        # Fonts
+        'ttf-meslo'
+)
+
+PACKAGES_CHAOTIC=(
+        # Pacman
+        'yay'
+
+        # Theme
+        'catppuccin-cursors-mocha'
+)
