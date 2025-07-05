@@ -169,3 +169,7 @@ CATPPUCCIN_THEME=(
         'cursors=https://github.com/catppuccin/cursors.git'
         'userstyles=https://github.com/catppuccin/userstyles.git'
 )
+
+printf "${BgCyan}[PROMPT]${Reset} Username"
+read -p ': ' USERNAME
+
